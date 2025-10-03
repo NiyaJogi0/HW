@@ -1,1 +1,11 @@
+Part A
+1. A
+2. D
+3. B
+4. C
+5. B
 
+Part B
+6. The Logical architectural view is affected the most because we're adding new parts like authentication service, student service records, mobile app connection and more. This changes the structure and how they connect will change. The other architectural views do change as well but logical will be affected the most.
+7. This affects our design because it's more complex now as we need to connect to multiple different systems and not just one app therefore we need to ensure it's more flexible. In order to achieve that, the best combination would be MVC with repository and Service-Oriented. The MVC helps keep everything separate so it doesnt't cause data mix ups, the repository helps to handle the data, and Service-Oriented system helps to get data from student records and other databases. 
+8. 
