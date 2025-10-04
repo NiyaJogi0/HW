@@ -8,4 +8,11 @@ Part A
 Part B
 6. The Logical architectural view is affected the most because we're adding new parts like authentication service, student service records, mobile app connection and more. This changes the structure and how they connect will change. The other architectural views do change as well but logical will be affected the most.
 7. This affects our design because it's more complex now as we need to connect to multiple different systems and not just one app therefore we need to ensure it's more flexible. In order to achieve that, the best combination would be MVC with repository and Service-Oriented. The MVC helps keep everything separate so it doesnt't cause data mix ups, the repository helps to handle the data, and Service-Oriented system helps to get data from student records and other databases. 
-8. 
+8. Step 1 - Student opens app and clicks "View"
+  Step 2 - Controller sends login request to university's authorization system 
+  Step 3 - Authorization system checks and sends token back
+  Step 4 - Student requests for grades
+  Step 5 - Controller uses token, asks Model
+  Step 6 - Model checks repository and student records services
+  Step 7 - Results go back to Controller and shown in View
+9. 
