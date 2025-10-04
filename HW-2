@@ -15,5 +15,5 @@ Part B
   Step 5 - Controller uses token, asks Model
   Step 6 - Model checks repository and student records services
   Step 7 - Results go back to Controller and shown in View
-9. <img width="1512" height="857" alt="Image" src="https://github.com/user-attachments/assets/f3b4caa1-4b11-45de-a3f5-6361e38ac3bb" />
+9. 
 10. It supports scalability as it is split into parts and uses tokens so we can add more servers easily which supports lot mroe users. Maintainability because each part is separate so if one part has an issue it won't affect the whole thing and we can solve the issue easier as only one part is affected. 
